@@ -1,4 +1,5 @@
 
+```ruby
 API_Traffic_Insights/
 │
 ├── data/                     # Data files
@@ -33,3 +34,4 @@ API_Traffic_Insights/
 ├── .gitignore                # Specifies intentionally untracked files to ignore
 ├── requirements.txt          # Fixed versions of all the project dependencies
 └── README.md                 # Project overview and instructions
+```
