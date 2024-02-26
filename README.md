@@ -1,4 +1,4 @@
-```ruby
+
 API_Traffic_Insights/
 │
 ├── data/                     # Data files
@@ -26,11 +26,10 @@ API_Traffic_Insights/
 │       ├── __init__.py       # Makes etl a Python module
 │       └── batch_process.py  # Script for batch processing and DB updates
 │
-├── tests/                    # Test cases for your application
+├── tests/                    # Test cases for application
 │   ├── __init__.py           # Makes tests a Python module
-│   └── test_processor.py     # Example test case
+│   └── test_processor.py     # Test case
 │
 ├── .gitignore                # Specifies intentionally untracked files to ignore
 ├── requirements.txt          # Fixed versions of all the project dependencies
 └── README.md                 # Project overview and instructions
-```
