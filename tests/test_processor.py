@@ -16,9 +16,3 @@ def test_convert_date_format():
     assert pd.isnull(df['date'][2])  # Non-date string should be converted to NaT
     assert df['date'][0] == pd.Timestamp('2020-01-01')  # Valid date should be properly converted
 
-# If you want to run tests directly without using pytest command
-if __name__ == "__main__":
-    test_remove_null_rows()
-    test_convert_date_format()
-    print("All tests passed!")
-
