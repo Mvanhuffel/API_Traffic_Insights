@@ -27,6 +27,19 @@ API_Traffic_Insights/
 │       ├── __init__.py       # Makes etl a Python module
 │       └── batch_process.py  # Script for batch processing and DB updates
 │
+├── sql/
+│   ├── ddl/
+│   │   ├── create_staging_tables.sql
+│   │   ├── create_dimension_tables.sql
+│   │   ├── create_fact_table.sql
+│   │   └── create_other_schema_objects.sql
+│   │
+│   ├── dml/
+│   │   ├── insert_into_staging.sql
+│   │   ├── insert_into_dimensions.sql
+│   │   ├── insert_into_fact.sql
+│   │   └── update_statements.sql
+|
 ├── tests/                    # Test cases for application
 │   ├── __init__.py           # Makes tests a Python module
 │   └── test_processor.py     # Test case
